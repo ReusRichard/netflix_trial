@@ -1,0 +1,95 @@
+Netflix2.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('https://assets.nflxext.com/us/boxshots/movies/85348518.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            height: 100vh;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .netflix-logo {
+            font-size: 32px;
+            color: red;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-left: 20px;
+            transform: rotate(0deg);
+        }
+
+        .sign-in {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+
+        .main-content {
+            margin-top: 50px;
+        }
+
+        .main-text {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .sub-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .email-input {
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 4px;
+            width: 300px;
+            margin-bottom: 10px;
+        }
+
+        .get-started {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="netflix-logo">Netflix</div>
+        <button class="sign-in">Sign In</button>
+    </div>
+
+    <div class="main-content">
+        <div class="main-text">Unlimited movies, TV shows, and more</div>
+        <div class="sub-text">Watch anywhere. Cancel anytime.</div>
+        <div class="sub-text">Ready to watch?</div>
+        <div>Enter your email to create or activate your membership</div>
+        <input type="email" class="email-input" placeholder="Enter your email address" />
+        <button class="get-started">Get started ></button>
+    </div>
+
+</body>
+</html>
